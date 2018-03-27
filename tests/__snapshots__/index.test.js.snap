@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.js test matches the snapshot 1`] = `
+<div
+  className="fantastico"
+>
+  <h1>
+    🧞 FANTASTICO! is operating
+    <br />
+    with React!
+  </h1>
+</div>
+`;

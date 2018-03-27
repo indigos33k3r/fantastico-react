@@ -4,7 +4,7 @@
 
 > Fantastico!React is a hassle-free React-Webpack 4 boilerplate for a quick dev setup experience
 
-Fantastico! is a React-Webpack 4 boilerplate including appropriate dev-setup to quick-start your project. No default JavaScript framework, no dev-setup headaches. Run once, build anywhere!
+Fantastico! is a React-Webpack 4 boilerplate including appropriate dev-setup to quick-start your project. Setup is default to React v16 with no dev-setup headaches. Run once, build anywhere!
 
 <br>
 
@@ -46,9 +46,12 @@ yarn check-security
 
 # lint (with standardjs)
 yarn lint
+
+# test (w/ Enzyme and Jest)
+yarn test
 ```
 
-## Related projects:
+## Related projects
 
 * [Fantastico!](https://github.com/cezaraugusto/fantastico) - Raw Webpack 4 (framework-less) boilerplate
 
