@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   devServer: {
     compress: true,
-    port: 9000
+    port: 9001
   },
   entry: {
     bundle: path.join(path.join(__dirname, 'app'), 'index')
@@ -17,7 +17,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: path.join(__dirname, 'index.html') })
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'index.html'),
+      filename: path.join(__dirname, 'dist', 'index.html')
+    })
   ],
   module: {
     rules: [
@@ -41,7 +44,8 @@ module.exports = {
               compress: true,
               includePaths: [path.join(__dirname, 'assets')]
             }
-          }]
+          }
+        ]
       },
       {
         test: /\.(jpe?g|png|gif)$/,

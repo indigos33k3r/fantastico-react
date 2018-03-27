@@ -1,16 +1,19 @@
 <img src="logo.png" align="right" width="150px" height="170px"/>
 
-[![Fantastico Boilerplate](https://img.shields.io/badge/fantastico-boilerplate-blue.svg)](https://github.com/cezaraugusto/fantastico)
+[![Fantastico!React Boilerplate](https://img.shields.io/badge/fantastico!react-boilerplate-blue.svg)](https://github.com/cezaraugusto/fantastico-react)
 
-> Fantastico! is a hassle-free raw Webpack 4 boilerplate for a quick dev setup experience
+> Fantastico!React is a hassle-free React-Webpack 4 boilerplate for a quick dev setup experience
 
-Fantastico! is a raw Webpack 4 boilerplate including appropriate dev-setup to quick-start your project. No default JavaScript framework, no dev-setup headaches. Run once, build anywhere!
+Fantastico! is a React-Webpack 4 boilerplate including appropriate dev-setup to quick-start your project. No default JavaScript framework, no dev-setup headaches. Run once, build anywhere!
 
 <br>
 
 ## What's in?
 
+* React v16
 * Webpack v4
+* Enzyme
+* Jest
 * NSP for security checks
 * StandardJS for linting
 * LESS
@@ -32,7 +35,7 @@ yarn install
 ## Getting started
 
 ```
-# for local development. Will listen on port 9000 (http://localhost:9000)
+# for local development. Will listen on port 9001 (http://localhost:9001)
 yarn dev
 
 # build your stuff
@@ -45,6 +48,10 @@ yarn check-security
 yarn lint
 ```
 
+## Related projects:
+
+* [Fantastico!](https://github.com/cezaraugusto/fantastico) - Raw Webpack 4 (framework-less) boilerplate
+
 ## License
 
-Fantastico! is released under the MIT license
+Fantastico!React is released under the MIT license

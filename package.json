@@ -1,7 +1,7 @@
 {
-  "name": "fantastico",
+  "name": "fantastico-react",
   "version": "1.0.0",
-  "description": "Hassle-free raw Webpack 4 boilerplate for a quick dev setup experience",
+  "description": "Hassle-free React-Webpack 4 boilerplate for a quick dev setup experience",
   "author": "Cezar Augusto",
   "license": "MIT",
   "homepage": "https://github.com/cezaraugusto/fantastico",
@@ -16,12 +16,15 @@
     "url": "https://cezaraugusto@github.com/cezaraugusto/fantastico.git"
   },
   "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "sanitize.css": "^5.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
